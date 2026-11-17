@@ -1,0 +1,8 @@
+{
+  "drop_id": "public-teaser-v1",
+  "pack_id": "med-coding",
+  "count": 10,
+  "manifest": "public_10.jsonl",
+  "manifest_sha256": "f73c5079ae142353e4c75bee63dbf87a953186fce86d2f3d205c429e81f3c3d1",
+  "watermarked": false
+}

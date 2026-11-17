@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CreditNote xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:cen.eu:en16931:2017</cbc:CustomizationID>
+  <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+  <cbc:ID>CN-2026-24111-4401</cbc:ID>
+  <cbc:IssueDate>2026-10-04</cbc:IssueDate>
+  <cbc:CreditNoteTypeCode>381</cbc:CreditNoteTypeCode>
+  <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+  <cac:BillingReference>
+    <cac:InvoiceDocumentReference>
+      <cbc:ID>INV-2026-53268</cbc:ID>
+      <cbc:IssueDate>2026-09-10</cbc:IssueDate>
+    </cac:InvoiceDocumentReference>
+  </cac:BillingReference>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:StreetName>Maximilianstrasse 10</cbc:StreetName>
+        <cbc:CityName>Munich</cbc:CityName>
+        <cbc:PostalZone>80331</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>DE715820146</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Rhein Germany B.V.</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:StreetName>Maximilianstrasse 10</cbc:StreetName>
+        <cbc:CityName>Munich</cbc:CityName>
+        <cbc:PostalZone>80331</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>DE906988632</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Iberia Germany B.V.</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:Delivery>
+    <cac:DeliveryLocation>
+      <cac:Address>
+        <cac:Country>
+          <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:DeliveryLocation>
+  </cac:Delivery>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="EUR">3912.44</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">21160.60</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">1481.24</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>7.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">12795.80</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">2431.20</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">7827.20</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="EUR">41783.60</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="EUR">41783.60</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="EUR">45696.04</cbc:TaxInclusiveAmount>
+    <cbc:PayableRoundingAmount currencyID="EUR">0.00</cbc:PayableRoundingAmount>
+    <cbc:PayableAmount currencyID="EUR">45696.04</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:CreditNoteLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">3.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">363.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-01] Industrial Servo Actuator</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">121.00</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">6.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">4647.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-02] Precision CNC Spindle</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>7.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">774.50</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>3</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">3.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">451.50</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-03] High-Voltage Busbar Assembly</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">150.50</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>4</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">6.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">4667.70</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-04] Modular PLC Control Unit</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">777.95</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>5</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">8.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">5695.60</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-05] Stainless Heat Exchanger</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>7.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">711.95</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>6</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">3.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">2705.85</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-06] Optical Flow Sensor Array</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">901.95</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>7</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">5.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">615.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-07] Industrial Servo Actuator</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">123.00</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>8</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">4.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">1832.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-08] Precision CNC Spindle</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>7.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">458.00</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>9</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">2.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">1831.90</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-09] High-Voltage Busbar Assembly</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">915.95</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>10</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">4.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">1568.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-10] Modular PLC Control Unit</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">392.00</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>11</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">6.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">1785.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-11] Stainless Heat Exchanger</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>7.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">297.50</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>12</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">1.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">193.95</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-12] Optical Flow Sensor Array</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">193.95</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>13</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">8.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">1455.60</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-13] Industrial Servo Actuator</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">181.95</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>14</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">8.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">3184.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-14] Precision CNC Spindle</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>7.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">398.00</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>15</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">8.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">2644.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-15] High-Voltage Busbar Assembly</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">330.50</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>16</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">7.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">4126.50</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-16] Modular PLC Control Unit</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">589.50</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>17</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">6.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">4017.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-17] Stainless Heat Exchanger</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>7.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">669.50</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+</CreditNote>

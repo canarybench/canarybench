@@ -1,0 +1,8 @@
+{
+  "drop_id": "public-teaser-v1",
+  "pack_id": "cre-lease",
+  "count": 10,
+  "manifest": "public_10.jsonl",
+  "manifest_sha256": "4efee936ead8a5500bc8bcbafef22cb143e0998419c1982ac4efba9d46e874c2",
+  "watermarked": false
+}

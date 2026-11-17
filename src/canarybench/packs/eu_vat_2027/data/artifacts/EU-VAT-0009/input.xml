@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CreditNote xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:cen.eu:en16931:2017</cbc:CustomizationID>
+  <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+  <cbc:ID>CN-2026-22747-4401</cbc:ID>
+  <cbc:IssueDate>2026-09-24</cbc:IssueDate>
+  <cbc:CreditNoteTypeCode>381</cbc:CreditNoteTypeCode>
+  <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+  <cac:BillingReference>
+    <cac:InvoiceDocumentReference>
+      <cbc:ID>INV-2026-41121</cbc:ID>
+      <cbc:IssueDate>2026-08-10</cbc:IssueDate>
+    </cac:InvoiceDocumentReference>
+  </cac:BillingReference>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:StreetName>Coolsingel 10</cbc:StreetName>
+        <cbc:CityName>Rotterdam</cbc:CityName>
+        <cbc:PostalZone>3011 AA</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode>NL</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>NL611328902B60</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Rhein Netherlands SAS</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:StreetName>Coolsingel 10</cbc:StreetName>
+        <cbc:CityName>Rotterdam</cbc:CityName>
+        <cbc:PostalZone>3011 AA</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode>NL</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>NL282218843B75</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Baltic Netherlands SAS</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:Delivery>
+    <cac:DeliveryLocation>
+      <cac:Address>
+        <cac:Country>
+          <cbc:IdentificationCode>NL</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:DeliveryLocation>
+  </cac:Delivery>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="EUR">915.56</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">4017.50</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">361.58</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>9.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">2638.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">553.98</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>21.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">1775.60</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="EUR">8431.10</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="EUR">8431.10</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="EUR">9346.66</cbc:TaxInclusiveAmount>
+    <cbc:PayableRoundingAmount currencyID="EUR">0.00</cbc:PayableRoundingAmount>
+    <cbc:PayableAmount currencyID="EUR">9346.66</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:CreditNoteLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">2.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">760.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-01] Industrial Servo Actuator</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>21.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">380.00</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">5.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">4017.50</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-02] Precision CNC Spindle</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>9.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">803.50</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>3</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">8.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">1775.60</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-03] High-Voltage Busbar Assembly</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>Z</cbc:ID>
+        <cbc:Percent>0.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">221.95</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+  <cac:CreditNoteLine>
+    <cbc:ID>4</cbc:ID>
+    <cbc:CreditedQuantity unitCode="C62">6.000</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">1878.00</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Name>[SKU-A-04] Modular PLC Control Unit</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>21.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">313.00</cbc:PriceAmount>
+    </cac:Price>
+  </cac:CreditNoteLine>
+</CreditNote>

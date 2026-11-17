@@ -1,0 +1,37 @@
+{
+  "claim_id": "CLM837P-2026-103133",
+  "service_date": "2026-06-17",
+  "billing_provider_npi": "1260942804",
+  "rendering_provider_npi": "1362655825",
+  "subscriber_id": "SUB-6990744",
+  "diagnoses": [
+    "K63.5",
+    "Z12.11"
+  ],
+  "service_lines": [
+    {
+      "line_number": 1,
+      "cpt_hcpcs": "45385",
+      "modifiers": [],
+      "pos_code": "24",
+      "units": 1,
+      "charge_amount": "640.00",
+      "diagnosis_pointers": [
+        1
+      ]
+    },
+    {
+      "line_number": 2,
+      "cpt_hcpcs": "45378",
+      "modifiers": [
+        "59"
+      ],
+      "pos_code": "24",
+      "units": 1,
+      "charge_amount": "410.00",
+      "diagnosis_pointers": [
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# --- CRITICAL: Private benchmark factory, weekly drops & watermarking secrets ---
+/private/
+private/
+**/private/
+*.canary.key
+*.cbkey
+*.secret
+.env
+.env.*
+
+# --- Python & Virtual Environments ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+/build/
+/dist/
+*.whl
+*.tar.gz
+
+# --- Tooling & Caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# --- OS / IDE ---
+.DS_Store
+.vscode/
+.idea/

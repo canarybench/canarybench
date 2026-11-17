@@ -1,0 +1,8 @@
+{
+  "drop_id": "public-teaser-v1",
+  "pack_id": "claims-adjudication",
+  "count": 10,
+  "manifest": "public_10.jsonl",
+  "manifest_sha256": "c05965aa51978387ed49f7069beb01ebc9996c4e48afb1f663dc47e3694db946",
+  "watermarked": false
+}

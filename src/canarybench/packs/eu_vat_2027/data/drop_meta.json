@@ -1,0 +1,8 @@
+{
+  "drop_id": "public-teaser-v1",
+  "pack_id": "eu-vat-2027",
+  "count": 25,
+  "manifest": "public_25.jsonl",
+  "manifest_sha256": "4d8c4709730cb2b5b0902081b648ae96ab890e3359369e520c5708d47d79673a",
+  "watermarked": false
+}

@@ -1,0 +1,116 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "canarybench"
+version = "0.1.0"
+description = "Contamination-free deterministic AI evaluation harness for compliance and extraction agents"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "Apache-2.0" }
+authors = [{ name = "CanaryBench" }]
+keywords = ["eval", "benchmark", "eu-vat", "en16931", "ubl", "deterministic", "compliance"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Typing :: Typed",
+]
+dependencies = [
+    "httpx>=0.27.0,<1.0.0",
+    "lxml>=5.2.0",
+    "pydantic>=2.8.0,<3.0.0",
+    "rich>=13.7.0",
+    "typer>=0.12.0,<1.0.0",
+]
+
+[project.optional-dependencies]
+factory = [
+    "lxml>=5.2.0",
+    "pypdf>=4.2.0",
+    "reportlab>=4.2.0",
+]
+dev = [
+    "build>=1.2.0",
+    "hypothesis>=6.100.0",
+    "lxml>=5.2.0",
+    "lxml-stubs>=0.5.1",
+    "mypy>=1.10.0",
+    "pypdf>=4.2.0",
+    "pytest>=8.2.0",
+    "reportlab>=4.2.0",
+    "ruff>=0.5.0",
+    "types-reportlab>=4.2.0",
+]
+
+[project.scripts]
+canarybench = "canarybench.cli:app"
+
+[project.entry-points."canarybench.engines"]
+ledger-math = "canarybench.engines.ledger_math:LedgerMathEngine"
+doc-reconcile = "canarybench.engines.doc_reconcile:DocReconcileEngine"
+rule-triage = "canarybench.engines.rule_triage:RuleTriageEngine"
+wire-protocol = "canarybench.engines.wire_protocol:WireProtocolEngine"
+
+[project.entry-points."canarybench.packs"]
+eu-vat-2027 = "canarybench.packs.eu_vat_2027.pack:EuVat2027Pack"
+cre-lease = "canarybench.packs.cre_lease.pack:CreLeasePack"
+customs-cbam = "canarybench.packs.customs_cbam.pack:CustomsCbamPack"
+med-coding = "canarybench.packs.med_coding.pack:MedCodingPack"
+claims-adjudication = "canarybench.packs.claims_adjudication.pack:ClaimsAdjudicationPack"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/canarybench"]
+exclude = [
+    "private",
+    "private/**",
+    "**/private/**",
+    "**/*.canary.key",
+]
+
+[tool.hatch.build.targets.sdist]
+only-include = [
+    "src/canarybench",
+    "tests",
+    "pyproject.toml",
+    "README.md",
+    "LICENSE",
+]
+exclude = [
+    "private",
+    "private/**",
+    "**/private/**",
+    ".env*",
+    "*.canary.key",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["src", "private", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N", "RUF"]
+ignore = ["B008"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_unused_configs = true
+disallow_any_generics = true
+disallow_subclassing_any = true
+no_implicit_reexport = true
+mypy_path = ["src", "."]
+
+[[tool.mypy.overrides]]
+module = ["reportlab.*", "pypdf.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["src", "."]

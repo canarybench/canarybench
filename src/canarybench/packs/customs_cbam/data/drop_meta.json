@@ -1,0 +1,8 @@
+{
+  "drop_id": "public-teaser-v1",
+  "pack_id": "customs-cbam",
+  "count": 10,
+  "manifest": "public_10.jsonl",
+  "manifest_sha256": "341fd1019a2937311a20bda3359eb99aecfcd6646bac07d6b6616d5ce218d0c8",
+  "watermarked": false
+}

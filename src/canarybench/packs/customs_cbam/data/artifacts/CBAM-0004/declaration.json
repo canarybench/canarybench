@@ -1,0 +1,71 @@
+{
+  "declaration_id": "IM4-2026-587954",
+  "importer": "Alpine Mechatronics SAS",
+  "exporter": "Pacific Heavy Casting Co.",
+  "export_country": "CN",
+  "fta_partner_export": false,
+  "goods_description": "Multi-Function Industrial Control Kit (No Essential Character)",
+  "customs_value_eur": "12100.00",
+  "ex_works_price_eur": "11500.00",
+  "gri_essential_character_threshold": "0.60",
+  "gri_metric": "COMPOSITE_TIE_3C",
+  "import_mass_tonnes": "89.000",
+  "annual_importer_cbam_mass_tonnes": "229.000",
+  "specific_embedded_emissions": "1.980",
+  "ets_price_eur": "79.50",
+  "bom_components": [
+    {
+      "component_id": "C1",
+      "description": "Molded Polymer Coupling Block",
+      "hs6": "392690",
+      "origin_country": "CN",
+      "originating": false,
+      "weight_kg": "330.000",
+      "value_eur": "3500.00"
+    },
+    {
+      "component_id": "C2",
+      "description": "Hydraulic Control Valve Core",
+      "hs6": "848180",
+      "origin_country": "CN",
+      "originating": false,
+      "weight_kg": "340.000",
+      "value_eur": "3300.00"
+    },
+    {
+      "component_id": "C3",
+      "description": "Static Power Regulator Board",
+      "hs6": "850440",
+      "origin_country": "CN",
+      "originating": false,
+      "weight_kg": "330.000",
+      "value_eur": "3200.00"
+    }
+  ],
+  "tariff_rules": {
+    "392690": {
+      "mfn_duty_rate_pct": "6.50",
+      "pref_duty_rate_pct": "0.00",
+      "origin_rule": "CTH",
+      "max_nom_cap_pct": null,
+      "cbam_in_scope": false,
+      "free_allocation_benchmark": "0.000"
+    },
+    "848180": {
+      "mfn_duty_rate_pct": "2.20",
+      "pref_duty_rate_pct": "0.00",
+      "origin_rule": "MAXNOM",
+      "max_nom_cap_pct": "45.00",
+      "cbam_in_scope": false,
+      "free_allocation_benchmark": "0.000"
+    },
+    "850440": {
+      "mfn_duty_rate_pct": "3.30",
+      "pref_duty_rate_pct": "0.00",
+      "origin_rule": "MAXNOM",
+      "max_nom_cap_pct": "45.00",
+      "cbam_in_scope": false,
+      "free_allocation_benchmark": "0.000"
+    }
+  }
+}

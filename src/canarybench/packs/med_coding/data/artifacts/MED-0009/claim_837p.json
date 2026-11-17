@@ -1,0 +1,23 @@
+{
+  "claim_id": "CLM837P-2026-108653",
+  "service_date": "2026-04-05",
+  "billing_provider_npi": "1820022063",
+  "rendering_provider_npi": "1569845591",
+  "subscriber_id": "SUB-6286941",
+  "diagnoses": [
+    "M16.11"
+  ],
+  "service_lines": [
+    {
+      "line_number": 1,
+      "cpt_hcpcs": "27130",
+      "modifiers": [],
+      "pos_code": "11",
+      "units": 1,
+      "charge_amount": "3250.00",
+      "diagnosis_pointers": [
+        1
+      ]
+    }
+  ]
+}

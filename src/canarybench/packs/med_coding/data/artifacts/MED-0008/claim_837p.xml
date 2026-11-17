@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Claim837P>
+  <ClaimId>CLM837P-2026-101857</ClaimId>
+  <ServiceDate>2026-02-21</ServiceDate>
+  <BillingProviderNpi>1182381503</BillingProviderNpi>
+  <RenderingProviderNpi>1487647145</RenderingProviderNpi>
+  <SubscriberId>SUB-8482935</SubscriberId>
+  <Diagnoses>
+    <ICD10>E11.9</ICD10>
+    <ICD10>I10</ICD10>
+  </Diagnoses>
+  <ServiceLines>
+    <ServiceLine>
+      <LineNumber>1</LineNumber>
+      <CptHcpcs>99213</CptHcpcs>
+      <Modifiers/>
+      <PosCode>11</PosCode>
+      <Units>1</Units>
+      <ChargeAmount>135.00</ChargeAmount>
+      <DiagnosisPointers>
+        <Pointer>1</Pointer>
+        <Pointer>4</Pointer>
+      </DiagnosisPointers>
+    </ServiceLine>
+  </ServiceLines>
+</Claim837P>
