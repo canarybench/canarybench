@@ -47,6 +47,11 @@ dev = [
     "types-reportlab>=4.2.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/canarybench/canarybench"
+Repository = "https://github.com/canarybench/canarybench"
+Issues = "https://github.com/canarybench/canarybench/issues"
+
 [project.scripts]
 canarybench = "canarybench.cli:app"
 
